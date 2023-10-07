@@ -93,12 +93,7 @@ h1{
     font-family: sans-serif;
 }
 
-/* .sec2{
-    position: absolute;
-    left: 596px;
-    top: 418px;
-    width: auto;
-}  */
+
 .parallax {
     /* The image used */
     background-image: url("/images/WB.jpg");
