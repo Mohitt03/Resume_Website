@@ -1,13 +1,14 @@
-body{
+body {
     body {
         width: 100%;
         height: 100%;
         margin: 0px;
         padding: 0px;
         overflow-x: hidden;
-      }
-      
+    }
+
 }
+
 /* Section 1  */
 
 
@@ -15,34 +16,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 555px;
+    height: 733px;
 }
-.sec1-div1{
+
+.sec1-div1 {
     display: flex;
     align-items: center;
     width: 100%;
     flex-direction: column;
 }
-.sec1-div2{
+
+.sec1-div2 {
     height: 270px;
 }
-.img1{
+
+.img1 {
     width: auto;
     height: 300px;
 }
-.sec1-h1-1{
+
+.sec1-h1-1 {
     left: 234px;
     top: -129px;
     width: 90px;
 }
-h1{
+
+h1 {
     color: rgb(207 166 204);
     font-size: 31px;
     position: relative;
     font-family: sans-serif;
 }
 
-.head-a{
+.head-a {
     color: rgb(154 176 182);
     font-weight: 800;
     font-size: 20px;
@@ -50,9 +56,10 @@ h1{
     font-family: sans-serif;
     padding: 1px 20px 1px 20px;
     margin: 0px 0px 0px 0px;
-    text-decoration: none;  
+    text-decoration: none;
 }
-.head-a:hover{
+
+.head-a:hover {
     background-color: white;
 }
 
@@ -60,14 +67,14 @@ h1{
 /* Section 2 */
 
 
-.sec2-div1{
+.sec2-div1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.sec2-h1-1{
+.sec2-h1-1 {
     color: rgb(207 166 204);
     font-size: 42px;
     position: relative;
@@ -76,30 +83,30 @@ h1{
     width: 60%;
     margin-top: 100px;
     margin-bottom: 231px;
-    font-family: Gilroy ExtraBold,sans-serif;
+    font-family: Gilroy ExtraBold, sans-serif;
 }
 
+/* Section 3  */
 
 
-
-.h1p{
+/* .h1p{
     color: rgb(207 166 204);
     font-size: 31px;
     position: relative;
     left: 50px;
     top: 69px;
     font-family: sans-serif;
-}
+} */
 
 
 .parallax {
     /* The image used */
-    background-image: url("/images/WB.jpg");
+    background-image: url("C:/Users/MOHIT/Desktop/Resume_Web/images/WB.jpg");
     background-size: 100%;
-  
+
     /* Set a specific height */
-    min-height: 500px; 
-  
+    min-height: 582px;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -109,27 +116,31 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.logo1 {
+    width: auto;
+    height: 100px;
 
-  }
-  .logo1{
+}
+
+.logo2 {
 
     width: auto;
     height: 100px;
-    position: relative;
-    left: 500px;
-    top: 190px;
-  }
-  .logo2{
 
-    width: auto;
-    height: 100px;
-    position: relative;
-    right: 400px;
-    top: -190px;
 
-  }
-  .h1-pro{
+}
+
+
+/* Section 4 */
+
+
+
+.project {
+    margin-top: 100px;
+}
+.h1-pro {
     position: relative;
     left: 1px;
     top: 1px;
@@ -137,21 +148,17 @@ h1{
     font-size: 56px;
     color: rgb(207 166 204);
     text-align: center;
-  }
-  .project{
-    margin-top: 100px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-  }
-.flex-c{
+}
+
+.flex-c {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
 }
-.sq{
+
+.sq {
     border: 10px solid black;
     text-align: center;
     margin-left: 20px;
@@ -160,16 +167,26 @@ h1{
     position: relative;
     left: 1px;
     right: 1px;
-    border-radius: 13px;
-  }
-.about{
+    border-radius: 7px;
+    transition: border .375s ;
+
+}
+
+    .sq:hover{
+    border: 20px solid  gray;
+
+    } 
+
+
+.about {
     margin-top: -95px;
     margin-bottom: 50px;
 }
+
 /* .about-mar{
     margin-top: -90px;
 } */
-.h1-about{
+.h1-about {
     position: relative;
     left: 1px;
     top: 130px;
@@ -178,35 +195,42 @@ h1{
     color: rgb(207 166 204);
     text-align: center;
     margin-bottom: -27px;
-  }
-.prof{
+}
+
+.prof {
     width: auto;
     height: 300px;
     border-radius: 150px;
 }
-.about-p{
+
+.about-p {
     margin-left: 76px;
     width: 652px;
     font-size: 25px;
 }
+
 /* Skills */
-.skill{
+.skill {
     display: flex;
     justify-content: center;
     font-family: sans-serif;
-    background-color:  rgb(154 176 182);
+    background-color: rgb(154 176 182);
 }
-.skill-h3{
+
+.skill-h3 {
     text-align: center;
 }
-.san{
+
+.san {
     font-family: sans-serif
 }
+
 /* Contact Me */
-.contact{
+.contact {
     padding-bottom: 150px;
 }
-.contact-h1{
+
+.contact-h1 {
     position: relative;
     left: 1px;
     /* top: 130px; */
@@ -215,42 +239,48 @@ h1{
     color: rgb(207 166 204);
     text-align: center;
 }
-.sa{
+
+.sa {
     display: flex;
     justify-content: center;
 }
-.s{
+
+.s {
     width: 500px;
 }
-.form{
+
+.form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
 }
-.lb{
-    font-family: Poppins,sans-serif;
+
+.lb {
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .15em;
 }
-.input{
+
+.input {
     border: 0;
     outline: 0;
     background: #d2d2d2;
     padding: 14px 16px;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     border-radius: 3px;
     overflow: hidden;
     box-sizing: border-box;
     color: #252525;
     width: 100%;
     margin-top: 1px;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
-.submit{
-    font-family: Poppins,sans-serif;
+
+.submit {
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 12px;
     text-transform: uppercase;
@@ -261,25 +291,28 @@ h1{
     /* transition: background .35s ease-in-out,color .35s ease-in-out; */
 
 }
-.submit:hover{
+
+.submit:hover {
     background-color: rgb(21 63 145);
 }
 
 /* footer */
 
-.footer-ul{
-    list-style-type: none; /* Remove bullets */
+.footer-ul {
+    list-style-type: none;
+    /* Remove bullets */
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 72px;
 }
-.footer-a{
+
+.footer-a {
     font-size: 12px;
     opacity: .5;
     font-weight: 700;
-    transition: opacity .3s cubic-bezier(.645,.045,.355,1);
+    transition: opacity .3s cubic-bezier(.645, .045, .355, 1);
     text-transform: uppercase;
     letter-spacing: .15em;
     font-family: sans-serif;
@@ -288,20 +321,23 @@ h1{
     margin-right: 45px;
 }
 
-.f{
+.f {
     position: relative;
     top: -7px;
     margin-left: 70px;
     margin-right: 70px;
 }
+
 @media (max-width:1024px) {
-    .about-p{
+    .about-p {
         width: 460px;
     }
-    .input{
+
+    .input {
         width: 100%;
     }
-    .submit{
+
+    .submit {
         width: 100%;
     }
 }
@@ -316,16 +352,25 @@ h1{
     .sec2-h1-1 {
         width: 70%;
     }
+    .logo1 {
+        height: 80px;
+    }
+    .logo2 {
+        height: 80px;
+    }
 
     /* 768 screen size: ; */
 }
 
 
 @media (max-width:767px) {
-
+    .parallax {
+        background-size: 200%;
+        }
 
     /* 576 screen size: ; */
 }
+
 @media (max-width:575px) {
     .sec2-h1-1 {
         width: 90%;
