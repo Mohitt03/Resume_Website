@@ -101,7 +101,7 @@ h1 {
 
 .parallax {
     /* The image used */
-    background-image: url("C:/Users/MOHIT/Desktop/Resume_Web/images/WB.jpg");
+    background-image: url("./images/WB.jpg");
     background-size: 100%;
 
     /* Set a specific height */
