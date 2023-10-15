@@ -20,9 +20,10 @@
                 <h1 class="sec1-h1-1">ohit </h1>
             </div>
             <div class="sec1-div3">
-                <a data-target="about" title="about" class="head-a" href="#">About</a>
-                <a class="head-a" href="">Contact</a>
-                <a class="head-a" href="">Project</a>
+                <a class="head-a" href="#About">About</a>
+                <a class="head-a" href="#Projects">Projects</a>        
+                <a class="head-a" href="#Contact">Contact</a>
+
             </div>
         </div>
 
@@ -55,7 +56,7 @@
 
     <!-- Section 4 -->
 
-    <section class="project">
+    <section id="Projects"  class="project">
 
         <div>
             <h1 class="h1-pro">Project.</h1>
@@ -66,15 +67,15 @@
                         <a href="https://mohitt03.github.io/Bevri/ " target="_blank">
 
                             <img class="project1"
-                            src="C:\Users\MOHIT\Desktop\Resume_Web\images\Screenshot 2023-10-13 151652.png"
-                            alt="project1.img">
+                                src="C:\Users\MOHIT\Desktop\Resume_Web\images\Screenshot 2023-10-13 151652.png"
+                                alt="project1.img">
 
                             <!-- <div class="overlay">
                                 <a id="learn-1">Learn More</a>
                             </div> -->
 
                         </a>
-                        
+
                     </div>
                 </div>
                 <!-- <div class="sq">
@@ -92,23 +93,23 @@
     </section>
 
 
-<!-- Secction 5 -->
+    <!-- Secction 5 -->
 
 
 
-    <section class="about">
+    <section id="About" class="about">
         <h1 class="h1-about">About Me.</h1>
         <div class=" about-mar">
 
             <div class="profile-div">
-                <img src="./images/profile.jpg" alt="profile.jpg" class="prof">
-                <div>
+                <img class="prof-img" src="./images/profile.jpg" alt="profile.jpg">
+                <div class="profile-txt">
                     <p>LOCATION: Connecticut, United States<br>
 
                         LANGUAGE: English (Native), French (Basic)</p>
                 </div>
             </div>
-            <div class="profile-txt">
+            <div class="profile-content">
                 <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -118,48 +119,57 @@
         </div>
     </section>
 
-
+    <!-- Section 6 -->
     <section>
         <div class="skill">
-            <div>
-                <h3 class="san">COMPETENCIES</h3>
-                <h4>BACKEND:</h4>
-                <p class="san">Java, NodeJS, Express</p>
-                <h4>FRONTEND:</h4>
-                <p class="san">HTML5, CSS3, JavaScript</p>
-                <h4> OTHER:</h4>
-                <p class="san">GitHub</p>
+            <h3 class="competencies">COMPETENCIES</h3>
+            <div class="skill-container">
+                <div class="skill-inner">
+                    <p class="skill-p">BACKEND:</p>
+                    <p class="skill-p">Java, NodeJS, Express</p>
+                </div>
+                <div class="skill-inner">
+                    <p class="skill-p">FRONTEND:</p>
+                    <p class="skill-p">HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="skill-inner">
+                    <p class="skill-p"> OTHER:</p>
+                    <p class="skill-p">GitHub</p>
+                </div>
+
+
             </div>
 
         </div>
-    </section> 
+    </section>
 
-     <section class="contact">
+
+<!-- Section 6 -->
+
+
+
+    <section id="Contact" class="contact">
         <h1 class="contact-h1">Contact Me.</h1>
-        <div class="sa">
+        <div class="contact-inner">
             <div class="s">
                 <form class="form">
-                    <label class="lb">NAME:</label>
+                    <!-- <label class="lb">NAME:</label> -->
                     <input class="input" type="text" placeholder="Enter your name here">
-    
-                    <label class="lb">EMAIL:</label>
+
+                    <!-- <label class="lb">EMAIL:</label> -->
                     <input class="input" type="email" placeholder="Enter your email here">
-    
-                    <label class="lb" for="freeform">MESSAGE:</label>
-                    <textarea class="input" placeholder="Enter your message here" id="freeform" name="freeform" rows="4"
-                        cols="50">
-                            </textarea><br>
+
+                    <!-- <label class="lb" for="freeform">MESSAGE:</label> -->
+                    <textarea class="input" placeholder="Enter your message here"  id="freeform" name="freeform" rows="4"
+                    cols="50"></textarea><br>
                     <button type="submit" class="submit">SEND INQUIRY</button>
                 </form>
             </div>
-    
+
         </div>
 
         </div>
-    </section> -->
-</section>
-    <section>
-        <div style="height: 500px;"></div>
+    </section>
     </section>
 </body>
 
