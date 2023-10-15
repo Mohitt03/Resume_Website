@@ -38,7 +38,7 @@ body {
 .sec1-h1-1 {
     left: 234px;
     top: -129px;
-    width: 90px;
+    width: 67px;
 }
 
 h1 {
@@ -140,6 +140,7 @@ h1 {
 .project {
     margin-top: 100px;
 }
+
 .h1-pro {
     position: relative;
     left: 1px;
@@ -159,23 +160,47 @@ h1 {
 }
 
 .sq {
-    border: 10px solid black;
+    /* border: 10px solid black; */
+    background-color: black;
     text-align: center;
-    margin-left: 20px;
-    height: 259px;
-    width: 234px;
+    width: 265px;
+    height: 265px;
     position: relative;
     left: 1px;
     right: 1px;
     border-radius: 7px;
-    transition: border .375s ;
+    transition: border .375s;
 
 }
+/* .project-inner-container{
+    height: 282px;
+    width: 262px;
+} */
+.overlay{
+    position: relative;
+    top: -135px;
+}
 
-    .sq:hover{
+/* .sq:hover{
     border: 20px solid  gray;
 
-    } 
+    }  */
+
+.project1 {
+    width: 265px;
+    height: 265px;
+    border-radius: 7px;
+    padding: 20px 20px 50px;
+    transition: padding 0.375s;
+}
+.project1:hover{
+    cursor: pointer;
+    padding: 0px;
+    
+}
+
+/* Project 5 */
+
 
 
 .about {
@@ -352,9 +377,11 @@ h1 {
     .sec2-h1-1 {
         width: 70%;
     }
+
     .logo1 {
         height: 80px;
     }
+
     .logo2 {
         height: 80px;
     }
@@ -366,7 +393,7 @@ h1 {
 @media (max-width:767px) {
     .parallax {
         background-size: 200%;
-        }
+    }
 
     /* 576 screen size: ; */
 }
@@ -374,6 +401,10 @@ h1 {
 @media (max-width:575px) {
     .sec2-h1-1 {
         width: 90%;
+    }
+    .head-a {
+        font-size: 18px;
+        padding: 1px 6px 1px 20px;
     }
 
     /* 320 screen size */
