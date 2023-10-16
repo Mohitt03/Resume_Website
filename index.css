@@ -5,6 +5,7 @@ body {
         margin: 0px;
         padding: 0px;
         overflow-x: hidden;
+        overflow-y: hidden;
     }
 
 }
@@ -17,6 +18,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 733px;
+    background-image: url(./images/Untitled\ design\ \(8\).png);
+    background-size: 1235px;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .sec1-div1 {
@@ -66,12 +72,22 @@ h1 {
 
 /* Section 2 */
 
+.sec2{
+    /* background-image: url(./images/Untitled\ design\ \(9\).png);  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #bf7b54;
+}
 
 .sec2-div1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(./images/Untitled\ design\ \(7\).png);
+    background-size: 1362px;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
 .sec2-h1-1 {
@@ -394,6 +410,73 @@ h1 {
     margin-left: 70px;
     margin-right: 70px;
 }
+
+
+/* Bevri Learn More */
+.bevri-body{
+    background-color: gainsboro;
+
+}
+.sec-Bevri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Bevri-Container{}
+.Bevri-heading{}
+.head{
+    color: black;
+    font-size: 65px;
+    margin: 93px 0px 0px 0px;
+}
+.fullStop{
+    margin: 0px 0px 0px 0px;
+    color: #3a6bc4;
+}
+.Bevri-Content{
+    display: inline-block;
+    text-align: left;
+}
+.txt {
+    padding: 24px 224px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Bevri-img {
+    margin-top: 100px;
+}
+.img {
+    width: 1036px;
+    height: auto;
+    border: 18px solid white;
+    border-radius: 10px;
+}
+.button-container{}
+.btn {
+    background-color: beige;
+    font-size: 20px;
+    border: 2px solid #3a6bc4;
+    /* border-radius: 7px; */
+    width: 154px;
+    height: 48px;
+    color: #3a6bc4;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #3a6bc4;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+
+/* Responsive */
 
 @media (max-width:1024px) {
     .profile-div {
