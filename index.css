@@ -195,10 +195,12 @@ h1 {
     transition: border .375s;
 
 }
-.bg-green{
+
+.bg- {
     background-color: #4e8a10;
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
 
@@ -458,7 +460,7 @@ h1 {
     text-align: left;
 }
 
-.Mhead{
+.Mhead {
     color: black;
     font-size: 50px;
 }
@@ -512,7 +514,17 @@ a {
 
 /* Responsive */
 
+@media (max-width:1199px) {
+
+
+    /* 992 screen size: ; */
+}
+
+
+
 @media (max-width:1024px) {
+
+
     .profile-div {
         width: 360px;
     }
@@ -529,13 +541,13 @@ a {
     .submit {
         width: 100%;
     }
+
+    /* Bevri Img sec  */
+    .img {
+        width: 721px;
+    }
 }
 
-@media (max-width:1199px) {
-
-
-    /* 992 screen size: ; */
-}
 
 @media (max-width:991px) {
 
@@ -596,6 +608,19 @@ a {
         font-size: 45px
     }
 
+    /* Bevri  */
+
+    /* Paragraph sec */
+    .txt {
+        padding: 24px 74px;
+    }
+
+    /* Img */
+
+    .img {
+        width: 503px;
+    }
+
     /* 576 screen size: ; */
 }
 
@@ -624,6 +649,19 @@ a {
     .about-p {
         width: 256px;
     }
+
+    /* Bevri  */
+
+    /* Paragraph sec */
+    .txt {
+        padding: 24px 44px;
+    }
+
+    /* Img */
+    .img {
+        width: 322px;
+    }
+
 
 
     /* 320 screen size */
