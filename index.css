@@ -14,16 +14,38 @@ body {
 
 
 .sec1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 733px;
+
     background-image: url(./images/Untitled\ design\ \(8\).png);
     background-size: 1235px;
     background-position: center;
     background-repeat: no-repeat;
 
 }
+.sec1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 733px;
+}
+
+/* .sec1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    transition: transform 0.5s ease;
+} */
+
+.sec1:hover {
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
+    /* Rotate the background image on hover */
+}
+
 
 .sec1-div1 {
     display: flex;
@@ -92,7 +114,8 @@ h1 {
 }
 
 .sec2-h1-1 {
-    color: rgb(57 44 56);    font-size: 42px;
+    color: rgb(57 44 56);
+    font-size: 42px;
     position: relative;
     font-family: sans-serif;
     height: auto;
@@ -529,6 +552,70 @@ a {
     color: #007bff;
     text-decoration: none;
 }
+
+
+
+
+/* Cycle Renting */
+.C-body {
+    background-color: gainsboro;
+
+}
+
+.sec-C {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.C-Container {}
+
+.C-heading {}
+
+.head {
+    color: black;
+    font-size: 65px;
+    margin: 93px 0px 0px 0px;
+}
+
+.fullStop {
+    margin: 0px 0px 0px 0px;
+    color: #3a6bc4;
+}
+
+.C-Content {
+    display: inline-block;
+    text-align: left;
+}
+
+.Mhead {
+    color: black;
+    font-size: 50px;
+}
+
+.txt {
+    padding: 24px 224px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.C-img {
+    margin-top: 100px;
+}
+
+.img {
+    width: 1036px;
+    height: auto;
+    border: 18px solid white;
+    border-radius: 10px;
+}
+
 
 
 
