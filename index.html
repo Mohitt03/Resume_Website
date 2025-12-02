@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div class="cursor-glow"></div>
 
     <!-- Section 1 -->
     <section class="sec1 ">
@@ -38,14 +39,23 @@
 
     <!-- Section 2 -->
     <section class="sec2">
+        <div class="hero-glow"></div>
+
         <!-- <div>
             <img src="./images/Untitled design (7).png">
         </div> -->
         <div class="sec2-div1">
             <h1 class="sec2-h1-1">
-                I'm a bespoke web developer looking to facilitate the creation of modern and aesthetically pleasing
-                websites.
+                <div class="typewriter-wrapper">
+                    <span class="typewriter">
+                        I’m a backend developer crafting scalable, secure, and high-performance systems that power
+                        modern digital experiences
+                    </span>
+                </div>
             </h1>
+
+
+
         </div>
 
     </section>
@@ -56,61 +66,23 @@
     <section class="parallax">
         <div class="">
             <a class="a" href="https://github.com/Mohitt03" target="_blank">
-                <img src="images\github.png" class="logo1">
+                <img src="images\github.png" class="logo1 float-icon">
             </a>
 
-            <a class="a" href="https://linkedin.com/in/mohit-nagpure-0b541b252" target="_blank">
-                <img src="images\linkedin.png" class="logo2"></a>
+            <a class="a" href="www.linkedin.com/in/mohit-nagpure-devloper" target="_blank">
+                <img src="images\linkedin.png" class="logo2 float-icon"></a>
         </div>
     </section>
 
     <!-- Section 4 -->
 
     <section id="Projects" class="project">
+        <h1 class="h1-pro">Project<w class="fullStop">.</w>
+        </h1>
 
-        <div>
-            <h1 class="h1-pro">Project<w class="fullStop">.</w>
-            </h1>
-
-            <div class=" flex-c">
-                <div class="sq bg-green">
-                    <div class="project-inner-container">
-                        <a href="LearnMorebevri.html" target="_blank">
-                            <img class="project1" src="images\Screenshot 2023-10-13 151652.png" alt="project1.img">
-                        </a>
-                    </div>
-                </div>
-                <div class="sq bg-black">
-                    <div class="project-inner-container">
-                        <a href="API.html" target="_blank">
-                            <img class="project1" src="images\API.png" alt="project2.img">
-                        </a>
-                    </div>
-                </div>
-                <div class="sq bg-black">
-                    <div class="project-inner-container">
-                        <a href="Blog.html" target="_blank">
-                            <img class="project1" src="images\Blog1.png" alt="project3.img">
-                        </a>
-                    </div>
-                </div>
-                <div class="sq bg-black">
-                    <div class="project-inner-container">
-                        <a href="Cycle_renting.html" target="_blank">
-                            <img class="project1" src="images\Cycle_renting\1.2_Home.png" alt="project4.img">
-                        </a>
-                    </div>
-                </div>
-                <!-- <div class="sq">
-                <p>Project 3</p>
-            </div>
-            <div class="sq">
-                <p>Project 4</p>
-            </div> -->
-            </div>
-        </div>
-
+        <div id="project-list" class="flex-c"></div>
     </section>
+
 
 
     <!-- Secction 5 -->
@@ -131,11 +103,9 @@
                 </div>
             </div>
             <div class="profile-content">
-                <p class="about-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p class="about-p">"After completing my Diploma in IT, I spent time improving my backend
+                    development skills. I focused on Node.js, built personal projects, learned industry tools, and
+                    prepared myself to enter the field confidently."</p>
             </div>
         </div>
     </section>
@@ -147,7 +117,7 @@
             <div class="skill-container">
                 <div class="skill-inner">
                     <p class="skill-p">BACKEND:</p>
-                    <p class="skill-p">Java, NodeJS, Express</p>
+                    <p class="skill-p">JavaScript, NodeJS, Express, Mongodb</p>
                 </div>
                 <div class="skill-inner">
                     <p class="skill-p">FRONTEND:</p>
@@ -194,6 +164,9 @@
     </section>
     </section>
 
+
+
+    <script src="projects.js"></script>
     <script src="script.js"></script>
 </body>
 
