@@ -4,7 +4,7 @@ const projects = [
         title: "Bevri",
         image: "images/Screenshot 2023-10-13 151652.png",
         description: "Bevri is a restaurant website with modern UI and responsive menu pages.",
-        link: "https://baby-blue-jellyfish-shoe.cyclic.app/"
+        link: "https://bevri-mobile.onrender.com"
     },
     {
         id: "api",
@@ -25,7 +25,7 @@ const projects = [
         title: "Cycle Renting",
         image: "images/Cycle_renting/1.2_Home.png",
         description: "A rental system with booking features, payment UI, and backend integration.",
-        link: "https://your-cycle-url.com"
+        link: "https://bicycle-main-2.onrender.com"
     },
     {
         id: "parking",
